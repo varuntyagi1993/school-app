@@ -1,0 +1,623 @@
+{
+  "project_info": {
+    "project_number": "778071257094",
+    "firebase_url": "https://pacifyca-9733d.firebaseio.com",
+    "project_id": "pacifyca-9733d",
+    "storage_bucket": "pacifyca-9733d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:9790962f37f582d4",
+        "android_client_info": {
+          "package_name": "biz.atconline.pacifyca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:a51c509ae4e7eea2775387",
+        "android_client_info": {
+          "package_name": "biz.atconline.pacifyca.ctkschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:90e3cf59d179fe55775387",
+        "android_client_info": {
+          "package_name": "biz.atconline.pacifyca.infant.jesus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:827727f241bf89b3",
+        "android_client_info": {
+          "package_name": "biz.atconline.pacifyca.lourdes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:6d5146654ea6961f775387",
+        "android_client_info": {
+          "package_name": "biz.atconline.pacifyca.nirmalschoolgondia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:89bda30c2eb53366775387",
+        "android_client_info": {
+          "package_name": "biz.atconline.pacifyca.sfsnarkhed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:f3c90d781a61c8ac775387",
+        "android_client_info": {
+          "package_name": "biz.atconline.pacifyca.sfsschoolexcellences"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:0177f6d288df1c68775387",
+        "android_client_info": {
+          "package_name": "biz.atconline.pacifyca.st.agnes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:5de32438b840f922775387",
+        "android_client_info": {
+          "package_name": "biz.atconline.pacifyca.st.francis.high.school"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:7ae97fad803bd7f3775387",
+        "android_client_info": {
+          "package_name": "biz.atconline.pacifyca.stjosehpchhindwara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:077c26612abcff26775387",
+        "android_client_info": {
+          "package_name": "biz.atconline.pacifyca.stmaryschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:7d7013a276112878775387",
+        "android_client_info": {
+          "package_name": "com.app.infantjesus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:922f4c56060dd535775387",
+        "android_client_info": {
+          "package_name": "com.app.mchswashim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:3948ae7e077454e7775387",
+        "android_client_info": {
+          "package_name": "com.app.mcsakola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:751b6b8ff197a26d775387",
+        "android_client_info": {
+          "package_name": "com.app.mountcarmelhighschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:fb8b439e2b0172e6775387",
+        "android_client_info": {
+          "package_name": "com.app.stfrancisofassisi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071257094:android:41be9a770accb5cd775387",
+        "android_client_info": {
+          "package_name": "com.app.sttheresa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI-rdgVpG2htbTEjzoGfZG-bYE7-3RN4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071257094-ila1c49n1131l0b0imskcesdengpkqio.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778071257094-p2p76p0b0d6407a8clkb1bgr4fepu1dp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "biz.atconline.pacifyca.st.agnes"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

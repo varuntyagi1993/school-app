@@ -1,0 +1,43 @@
+  <!-- <ion-header>
+    <ion-toolbar color="menu">
+        <ion-buttons slot="start">
+            <ion-button (click)="back()">
+                <ion-icon name="arrow-back"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+        <ion-title >Exam </ion-title>
+    </ion-toolbar>
+  </ion-header> -->
+
+<ion-content>
+  <!-- <img src="assets/images/banner_2.png" style="width: 100%;
+  height: 202px;" alt="" />
+  <ion-segment class="seg" value="profile">
+    <ion-segment-button value="profile" class="seg-btn" (click)="rout('/class-list-mark')" >
+      <img class="img1" src="assets/images/progress-report.png" />
+      <ion-label class="label">Mark Entry</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="notification" (click)="rout('/mark-remarks')">
+      <img class="img1" src="assets/images/progress-report.png" />
+      <ion-label class="label">Remarks For Mark Card</ion-label>
+    </ion-segment-button>
+  </ion-segment> -->
+
+  <ion-tabs>
+    
+
+    <ion-tab-bar selectedTab="class-list-mark" slot="bottom">
+      <ion-tab-button tab="class-list-mark">
+        <ion-icon class="text-icon" name="book-outline"></ion-icon>
+        
+        <ion-label class="text-icon">Marks Entry</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="mark-remarks">
+        <ion-icon class="text-icon" name="create-outline"></ion-icon>
+        <ion-label class="text-icon">Remarks For Mark Card</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+  
+</ion-content>

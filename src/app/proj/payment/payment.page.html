@@ -1,0 +1,226 @@
+<ion-header>
+  <ion-toolbar color="menu">
+      <ion-buttons slot="start">
+          <ion-back-button defaultHref="home"></ion-back-button>
+      </ion-buttons>
+      <ion-title> Fees </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- <ion-segment color="primary" [(ngModel)]="type" (ionChange)="segmentChanged($event)" scrollable>
+    <ion-segment-button value="fees" checked>
+      <ion-label>Fees</ion-label> -->
+      <!-- <ion-icon name="cash"></ion-icon> -->
+    <!-- </ion-segment-button>
+    <ion-segment-button *ngIf="isTab" value="fee-v3">
+      <ion-label>Pay Fee</ion-label> -->
+      <!-- <ion-icon name="cash"></ion-icon> -->
+    <!-- </ion-segment-button>
+  </ion-segment> -->
+  <!-- <div [ngSwitch]="type"> -->
+    <!-- <ion-list *ngSwitchCase="'fee-v3'"> -->
+      <ion-list>
+      <div *ngIf="!isError">
+        <div *ngIf="admissionFeesInStudentDashboard == 0">
+          <p style="margin-top: 2rem;text-align: center;font-size: 16px;color: red;">ADMISSION FEE PAYMENT IS CLOSED</p>
+        </div>
+        <div *ngIf="admissionFeesInStudentDashboard == 1">
+          <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+            <ion-refresher-content></ion-refresher-content>
+          </ion-refresher>
+          <!-- <div class="thumnails" >
+            <div class="list-thumbnail">
+              <div class="img-thumb"> -->
+                <ion-grid class="tabl ">
+                  <ion-row class="a_list ">
+                    <!-- <ion-col class="ion-col" size="2.5">
+                      <p>Fee Type</p>
+                    </ion-col>
+                    <ion-col class="ion-col" size="1.7">
+                      <p>Class</p>
+                    </ion-col> -->
+                    <ion-col class="ion-col" size="4">
+                      <p>Total Fees</p>
+                    </ion-col>
+                    <ion-col class="ion-col" size="4">
+                      <p>Paid Amount</p>
+                    </ion-col>
+                    <ion-col class="ion-col" size="4">
+                      <p>Balance</p>
+                    </ion-col>
+                    <!-- <ion-col class="ion-col" size="1.7">
+                      <p>Paying Amount</p>
+                    </ion-col>
+                    <ion-col class="ion-col" size="2.3">
+                      <p>Action</p>
+                    </ion-col> -->
+                  </ion-row>
+                  <span *ngFor="let order of orders1" >
+                    <ion-row class="abst_list  " >
+                      <!-- <form [formGroup]="myForm"></form> -->
+                      <!-- <ion-col class="ion-col" size="2.5">
+                        <p style="text-align: left;" class="v">{{order.challan_type}}</p>
+                      </ion-col>
+                      <ion-col class="ion-col" size="1.7">
+                        <p class="v">{{order.year}}</p>
+                      </ion-col> -->
+                      <ion-col class="ion-col" size="4">
+                        <p class="v">{{order.total_fees | currency:'INR'
+                        }}</p>
+                      </ion-col>
+                      <ion-col  class="ion-col" size="4">
+                        <p class="v">{{order.paid_amount | currency:'INR'}}</p>
+                       
+                      </ion-col>
+                      <ion-col class="ion-col" size="4">
+                        <p class="v">{{order.pending_amount | currency:'INR'}}</p>
+                      </ion-col>
+                    </ion-row>
+                    <ion-row class="tabl1">
+                      <ion-col>&nbsp;</ion-col>
+                    </ion-row>
+                    <ion-row class="tabl1" *ngIf="setting.hide_pay_button_in_student_dashboard_and_online_admission_pay_fee != 1">
+                      <ion-col size="4">
+                        <p style="margin-top: 10px;">Amount To Pay</p>
+                      </ion-col>
+                      <ion-col class="ion-col" size="4">
+                        <ion-input placeholder="Enter Amount" (ionChange)="onChangeAmount($event, order.pending_amount)" type="number" [value]="order.pending_amount"></ion-input>
+                      </ion-col>
+                      <ion-col class="ion-col" size="4">
+                        <button [disabled]="!isValid || order.pending_amount === 0 || order.payment_block === 1" (click)="generateOrder(order, 'fee-v3')"  class="button-1" >Pay</button>
+                        <!-- <button (click)=" generateReport(order)" *ngIf="order.receipt_ids" class="button-1">Print</button> -->
+                      </ion-col>
+                    </ion-row>
+                  </span>
+                  
+                  <!-- <div *ngIf="orders.length != 0">
+                    <ion-row class="abst_list"  *ngFor="let order of orders">
+                      <ion-col size="3.3">
+                          <p style="text-align: left;" class="v">{{order.challan_number}}</p>
+                      </ion-col>
+                      <ion-col size="3.5">
+                          <p class="v">{{order.amount  | currency:'INR' }}</p>
+                      </ion-col>
+                      <ion-col size="3.2" >
+                        <p class="v">{{order.due_date}}</p>
+                      </ion-col>
+                      <ion-col size="2" *ngIf="order.action == 'Print'">
+                        <button (click)=" generateReport(order.receipt_ids)" [disabled]="!order.receipt_ids" class="button-1">Print</button>
+                      </ion-col>
+                      <ion-col size="2" *ngIf="order.action == 'Pay'">
+                        <button (click)="generateOrder(order)" [disabled]="order.pay_fee_disable == 'Y'" class="button-1">Pay</button>
+                      </ion-col>
+                      <ion-col size="2" *ngIf="order.action == 'Due Date Passed'">
+                        <p style="color: red;">Due Date Passed</p>
+                      </ion-col>
+                    </ion-row>
+                  </div>
+                  <div *ngIf="orders.length == 0">
+                    <ion-row class="abst_list">
+                      <ion-col>
+                        Data Not Found
+                      </ion-col>
+                    </ion-row>
+                  </div> -->
+                </ion-grid>
+              <!-- </div>
+            </div>
+          </div> -->
+          
+        </div>
+      </div>
+      <ion-card *ngIf="isError" style="text-align: center;color: #000;margin: 15px;">
+        <h3>{{error}}</h3>
+        <img src="../../../assets/images/noti.png" class="imf" />
+      </ion-card>
+    
+  </ion-list>
+    <!-- <ion-list *ngSwitchCase="'fees'"> -->
+      
+      <ion-list>
+        
+      <div *ngIf="!isError">
+        <div *ngIf="admissionFeesInStudentDashboard == 0">
+          <p style="margin-top: 2rem;text-align: center;font-size: 16px;color: red;">ADMISSION FEE PAYMENT IS CLOSED</p>
+        </div>
+        <div *ngIf="admissionFeesInStudentDashboard == 1">
+          <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+            <ion-refresher-content></ion-refresher-content>
+          </ion-refresher>
+          <!-- <ion-list-header><h4 style="color: #620b23;" >Paid Details</h4></ion-list-header> -->
+          <!-- <div class="thumnails" >
+              <div class="list-thumbnail">
+                <div class="img-thumb"> -->
+                <ion-grid class="tabl ">
+                  <ion-row class="a_list ">
+                    <ion-col size="3.2">
+                      <p>Installments</p>
+                    </ion-col>
+                    <ion-col size="3">
+                      <p>Amount</p>
+                    </ion-col>
+                    <!-- <ion-col size="2.2">
+                      <p>Due Date</p>
+                    </ion-col> -->
+                    <ion-col size="3.2">
+                      <p>Paid Date</p>
+                    </ion-col>
+                    <ion-col >
+                      <p>Reciept</p>
+                    </ion-col>
+                  </ion-row>
+                  <div *ngIf="orders.length != 0">
+                    <ion-row class="abst_list "   *ngFor="let order of orders">
+                      <ion-col size="3.2">
+                          <p style="text-align: left;" class="v">{{order.challan_number}}</p>
+                      </ion-col>
+                      <ion-col size="3">
+                          <p class="v">{{order.amount  | currency:'INR' }}</p>
+                      </ion-col>
+                      <!-- <ion-col size="2.2" >
+                        <p class="v">{{order.due_date}}</p>
+                      </ion-col> -->
+                      <ion-col size="3.2" >
+                        <p class="v">{{order.payment_date}}</p>
+                      </ion-col>
+                      <ion-col  *ngIf="order.action == 'Print'">
+                        <div *ngIf="order.receipt_ids">
+                          <button (click)=" generateReport(order)" [disabled]="!order.receipt_ids" class="button-1">Print</button>
+                        </div>
+                        <div *ngIf="!order.receipt_ids" style="text-align: center;">
+                          <span style="color: red; ">
+                            Reciept Not Available</span>
+                        </div>
+                      </ion-col>
+                      <ion-col  *ngIf="order.action == 'Pay'">
+                        <button (click)="generateOrder(order, 'fees')" [disabled]="order.pay_fee_disable == 'Y'" class="button-1">Pay</button>
+                      </ion-col>
+                      <ion-col  *ngIf="order.action == 'Due Date Passed'">
+                        <p style="color: red;">Due Date Passed</p>
+                      </ion-col>
+                    </ion-row>
+                  </div>
+                  <div *ngIf="orders.length == 0">
+                    <ion-row class="abst_list row-text">
+                      <ion-col>
+                        Data Not Found
+                      </ion-col>
+                    </ion-row>
+                  </div>
+                </ion-grid>
+                <!-- </div>
+                </div>
+                </div> -->
+        </div>
+      </div>
+      <ion-card *ngIf="isError" style="text-align: center;color: #000;margin: 15px;">
+        <h3>{{error}}</h3>
+        <img src="../../../assets/images/noti.png" class="imf" />
+      </ion-card>
+    </ion-list>
+
+   
+  <!-- </div> -->
+  
+</ion-content>
